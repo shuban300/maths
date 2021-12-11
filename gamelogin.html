@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="gamelogin.js"></script>
+  </head>
+  <body>
+    <center>
+      <h1>
+        maths game
+      </h1>
+      <div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+        <h3>
+          player1 login
+        </h3>
+        <label>
+          user name 
+        </label>
+        <input type="text"id="player1_name_input"class="form-control"placeholder="player1name">
+        <br>
+      </div><div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+        <h3>
+          player2 login
+        </h3>
+        <label>
+          user name 
+        </label>
+        <input type="text"id="player2_name_input"class="form-control"placeholder="player2name">
+        <br>
+      </div>
+      <button style="width:30%"class="btn btn-primary"onclick="addUser()">login
+      </button>
+    </center>
+
+  </body>
